@@ -1,5 +1,57 @@
-# Real Estate Price Prediction Web App
+# Real Estate Price Prediction using Machine Learning
 
-This project is an end-to-end machine learning web application that predicts real estate prices in Bangalore based on user inputs such as total square feet, number of bedrooms (BHK), number of bathrooms, and location. The model is trained using Python and scikit-learn after performing data cleaning, outlier removal, and feature engineering, including one-hot encoding of location data. The trained regression model and feature columns are saved and reused for real-time predictions, ensuring consistent and fast results.
+An end-to-end Machine Learning project that predicts Bangalore house prices based on location, square footage, number of bedrooms (BHK), and bathrooms.
 
-The application is built with a Flask backend that exposes REST APIs for fetching available locations and predicting prices, and a simple HTML/CSS/JavaScript frontend that allows users to enter property details and instantly view estimated prices. The project is structured into separate client, server, and model modules for deployment. This setup demonstrates a complete ML-to-production workflow, combining data science, backend services, and frontend integration in a single project.
+#This project includes:
+*Data cleaning & feature engineering
+*ML model training in Jupyter Notebook
+*Model serialization using Pickle
+*Flask REST API backend
+*Interactive HTML/CSS/JS frontend
+*Deployment ready server 
+
+# Problem Statement
+Real estate prices vary significantly based on location and property features. This project builds a Machine Learning model to estimate house prices in Bangalore using structured housing data and exposes the model through a web interface for predictions.
+
+#The ML workflow includes:
+*Raw dataset preprocessing
+*Handling missing values
+*Location feature reduction
+*Outlier removal
+*One-hot encoding for locations
+*Model training using regression
+*Model evaluation & validation
+*Model export as pickle file
+
+#Features
+*Predict house prices using ML model
+*Location-based pricing intelligence
+*REST API endpoints
+*Frontend UI for user input
+*Model served via Flask
+*JSON prediction response
+*Production server config included
+
+#How the Web App Works
+*Model Inputs:[Square feet,Location,BHK,Bathrooms]
+*Frontend sends request to Flask API
+*Flask loads trained model
+*Model predicts price
+*Result displayed instantly
+
+#Results
+*The trained regression model successfully predicts Bangalore house prices based on key property features such as location, total square footage, BHK, and number of bathrooms.
+
+#Benefits
+*Instant house price estimation
+*Data-driven property valuation
+*Reduces manual estimation errors
+*Demonstrates full ML lifecycle
+
+#Future Improvements
+*Add advanced models (XGBoost, Gradient Boosting)
+*Feature importance visualization dashboard
+*Automated retraining with new market data
+*Use latest real estate datasets and add time-based price trends
+*Convert Flask API to FastAPI for performance
+
