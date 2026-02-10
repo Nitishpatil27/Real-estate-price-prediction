@@ -52,15 +52,13 @@ The trained regression model successfully predicts Bangalore house prices based 
 - BHK  
 - Number of bathrooms
 
-The model was evaluated using standard regression performance metrics and showed strong predictive capability on unseen validation data. The model achieved an R² score of approximately 0.85–0.90, indicating that it can explain most of the variance in house prices based on the selected features.
+    The model was evaluated using standard regression performance metrics and showed strong predictive capability on unseen validation data. The model achieved an R² score of approximately 0.85–0.90, indicating that it can explain most of the variance in house prices based on the selected features.
   
 ## Benefits
 - Instant house price estimation  
 - Data-driven property valuation  
 - Reduces manual estimation errors  
 - Demonstrates full ML lifecycle  
-- Shows ML → API → Frontend integration  
-- Reusable prediction API for other apps
   
 ## Future Improvements
 - Add advanced models (XGBoost, Gradient Boosting)  
