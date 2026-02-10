@@ -37,7 +37,8 @@ This project builds a Machine Learning model to estimate house prices in Bangalo
 - Square feet  
 - Location  
 - BHK  
-- Bathrooms  
+- Bathrooms
+  
 **Flow:**
 1. Frontend sends request to Flask API  
 2. Flask loads trained model  
@@ -50,6 +51,7 @@ The trained regression model successfully predicts Bangalore house prices based 
 - Total square footage  
 - BHK  
 - Number of bathrooms
+
 The model was evaluated using standard regression performance metrics and showed strong predictive capability on unseen validation data. The model achieved an R² score of approximately 0.85–0.90, indicating that it can explain most of the variance in house prices based on the selected features.
   
 ## Benefits
