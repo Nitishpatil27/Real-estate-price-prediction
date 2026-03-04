@@ -1,6 +1,13 @@
 # Real Estate Price Prediction using Machine Learning
 An end-to-end Machine Learning project that predicts Bangalore house prices based on **location, square footage, number of bedrooms (BHK), and bathrooms**.
 
+## Dataset Overview
+**Name**: bengaluru_house_prices
+**Source**: Kaggle datasets
+**Description**: Bengaluru Home Prices Dataset is a real estate dataset sourced from Kaggle containing approximately 13,000 property listings in Bengaluru with features such as location, area type, size , total square footage, bathrooms, balconies, and price.
+**Number of records**: 13321
+**Number of features**: 8
+
 ## Project Includes
 - Data cleaning & feature engineering  
 - ML model training in Jupyter Notebook  
