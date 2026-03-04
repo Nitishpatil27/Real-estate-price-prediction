@@ -1,5 +1,5 @@
 # Real Estate Price Prediction using Machine Learning
-An end-to-end Machine Learning project that predicts Bangalore house prices based on **location, square footage, number of bedrooms (BHK), and bathrooms**.
+An Machine Learning project that predicts Bangalore house prices based on features such as **location, square footage, number of bedrooms (BHK), and bathrooms**.
 
 ## Dataset Overview       
 **Name**: bengaluru_house_prices          
